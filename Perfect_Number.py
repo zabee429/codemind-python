@@ -1,9 +1,9 @@
 n=int(input())
-s=0
-for x in range(1,n):
-    if n%x==0:
-        s+=x
-if(s==n):
+b=0
+for i in range(1,n-1):
+    if n%i==0:
+        b+=i
+if b==n:
     print('True')
 else:
     print('False')
