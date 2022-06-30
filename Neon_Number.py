@@ -1,11 +1,11 @@
-a=int(input())
-k=a*a
-s=0
-while(k):
-    r=k%10
-    s=s+r
-    k=k//10
-if s==a:
-    print('Neon Number')
+n=int(input())
+s=n*n
+su=0
+while s>0:
+    r=s%10
+    su+=r
+    s=s//10
+if su==n:
+    print("Neon Number")
 else:
-    print('Not Neon Number')
+    print("Not Neon Number")
